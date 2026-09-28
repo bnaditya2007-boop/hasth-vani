@@ -84,4 +84,4 @@ py cli.py recall "What do we already know about the thumb flex sensor?"
 ```
 
 Setup and real retain/recall output: `memory_service/README.md`.
-Full write-up: **ARTICLE_URL_TODO**
+Full write-up: **https://dev.to/bnaditya2007boop/my-gloves-thumb-read-247-hindsight-remembered-why-5ml**
