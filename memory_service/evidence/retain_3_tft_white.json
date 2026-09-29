@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "bank_id": "hasth-vani",
+  "items_count": 1,
+  "async": false,
+  "operation_id": null,
+  "operation_ids": null,
+  "usage": {
+    "input_tokens": 2151,
+    "output_tokens": 648,
+    "total_tokens": 2799,
+    "cached_tokens": 0,
+    "thoughts_tokens": 0
+  }
+}

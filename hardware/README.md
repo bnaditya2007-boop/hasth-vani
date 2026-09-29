@@ -7,7 +7,7 @@ Circuit reference, component list, and wiring diagrams. Status as of 28 Sep 2026
 > schematics, flowcharts) and are still accurate. The exception is
 > `05_tft_wiring.svg`, which shows a generic SPI-style TFT connection drawn
 > before the shield was actually wired up. The pin table in this README and
-> the interactive model in `interactive_models/` reflect the real, tested
+> the interactive viewer in `docs/wiring_3d_viewer.html` reflect the real, tested
 > 8-bit-parallel wiring - trust those over that one diagram.
 
 ## Bill of materials
@@ -113,7 +113,7 @@ flow & data flow · 13-16. Breadboard geometry & connectivity ·
 
 ## Interactive wiring model
 
-`interactive_models/full_wiring_left_glove.html` - open in any browser.
+`docs/wiring_3d_viewer.html` - open in any browser.
 Shows the complete left-glove circuit (flex + MPU6050 + TFT + both power
 inputs) fully wired by default; click any wire, sensor, module, or table
 row to isolate just that connection (everything else dims). Includes a

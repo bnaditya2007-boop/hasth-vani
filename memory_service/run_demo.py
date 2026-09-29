@@ -1,6 +1,6 @@
 """Retain the real Hasth Vani debugging observations, then recall them.
 
-Writes every raw Hindsight response to submit/evidence/ as JSON.
+Writes every raw Hindsight response to memory_service/evidence/ as JSON.
 Run from memory_service/:  py run_demo.py
 """
 
@@ -10,7 +10,7 @@ import sys
 
 from hasth_vani_memory import HasthVaniMemory, HindsightError
 
-EVIDENCE = pathlib.Path(__file__).resolve().parent.parent / "submit" / "evidence"
+EVIDENCE = pathlib.Path(__file__).resolve().parent / "evidence"
 
 RETAIN = [
     ("retain_1_thumb.json",

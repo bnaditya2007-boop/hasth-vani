@@ -39,6 +39,28 @@ the firmware and makes memory available to the debugging/agent layer.
 python -m pip install -r requirements.txt
 ```
 
+## Run the real demo
+
+```bash
+python run_demo.py
+```
+
+This retains the four real Hasth Vani debugging observations (thumb reading,
+TFT compile fix, white TFT screen, power-rail rebuild), then runs two recalls.
+Every raw Hindsight response is saved to [`evidence/`](evidence/). The committed
+files there are the actual output from the live `hasth-vani` bank.
+
+Top results for *"What do we already know about the thumb flex sensor?"*:
+
+```text
+0.621  The thumb flex sensor on the left glove is reading approximately 247,
+       while other fingers read between 1500 and 2500.
+0.166  The thumb channel measured 247 after a direct 3.3V bypass, but the
+       sensor is not yet confirmed as the faulty component.
+0.071  Bypassing the thumb flex sensor with a jumper direct to 3.3V did not
+       change the reading, indicating the sensor is not the sole cause.
+```
+
 ## Retain an observation
 
 ```bash

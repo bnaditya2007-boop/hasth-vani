@@ -1,0 +1,666 @@
+{
+  "results": [
+    {
+      "id": "23bfea63-b283-4ecb-b9e6-b8e7c95908a1",
+      "text": "The 2.4in TFT shield on the left glove ESP32 displays a solid white screen, likely due to an incorrect driver chip configuration in User_Setup.h; the user plans to identify the controller and test alternatives like ILI9325, ILI9328, HX8347, or ST7781.",
+      "type": "observation",
+      "entities": [
+        "user",
+        "ST7781",
+        "ILI9341",
+        "ILI9325",
+        "TFT shield",
+        "HX8347",
+        "ESP32",
+        "User_Setup.h"
+      ],
+      "context": null,
+      "occurred_start": "2026-09-28T00:00:00+00:00",
+      "occurred_end": "2026-09-28T00:00:00+00:00",
+      "mentioned_at": "2026-09-28T16:39:27.818762+00:00",
+      "document_id": null,
+      "metadata": {},
+      "chunk_id": null,
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 1.096963410559274,
+        "reranker": 0.99758446,
+        "semantic": 0.7731278538703918,
+        "keyword": 0.30000001192092896
+      },
+      "attachments": null
+    },
+    {
+      "id": "99d1b655-0b8b-45c3-a8cb-c90660275781",
+      "text": "The 2.4in TFT shield on the left glove ESP32 displays a solid white screen despite successful code upload and verification. | When: 2026-09-28 | Involving: user",
+      "type": "world",
+      "entities": [
+        "TFT shield",
+        "user",
+        "ESP32"
+      ],
+      "context": "Hasth Vani display debugging",
+      "occurred_start": "2026-09-28T00:00:00+00:00",
+      "occurred_end": "2026-09-28T00:00:00+00:00",
+      "mentioned_at": "2026-09-28T16:39:27.798762+00:00",
+      "document_id": "30442d3d-673a-4dc0-951b-022d00a2ecd0",
+      "metadata": {},
+      "chunk_id": "hasth-vani_30442d3d-673a-4dc0-951b-022d00a2ecd0_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 0.8253224489848925,
+        "reranker": 0.7505527,
+        "semantic": 0.7826964855194092,
+        "keyword": 0.4000000059604645
+      },
+      "attachments": null
+    },
+    {
+      "id": "11563b76-0e6e-4db4-95e0-1c98a43703ad",
+      "text": "The user suspects the wrong driver chip is configured in User_Setup.h, as the current ILI9341 configuration results in a blank white screen. | When: 2026-09-28 | Involving: user",
+      "type": "world",
+      "entities": [
+        "user",
+        "User_Setup.h",
+        "ILI9341"
+      ],
+      "context": "Hasth Vani display debugging",
+      "occurred_start": null,
+      "occurred_end": null,
+      "mentioned_at": "2026-09-28T16:39:27.808762+00:00",
+      "document_id": "30442d3d-673a-4dc0-951b-022d00a2ecd0",
+      "metadata": {},
+      "chunk_id": "hasth-vani_30442d3d-673a-4dc0-951b-022d00a2ecd0_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 0.004356866399966416,
+        "reranker": 0.003960788,
+        "semantic": 0.6730035348536703,
+        "keyword": 0.20000000298023224
+      },
+      "attachments": null
+    },
+    {
+      "id": "c6de2be7-e114-46fd-a3ff-9fcfdd17aa2e",
+      "text": "The user rebuilt the breadboard circuit for the five flex dividers on the left glove to use the real 3V3 pin instead of GPIO33, which had been causing crosstalk; following this, 4 of 5 fingers read correctly, but the thumb sensor remains incorrect.",
+      "type": "observation",
+      "entities": [
+        "thumb channel",
+        "flex-sensor",
+        "3V3",
+        "Hasth Vani",
+        "ESP32",
+        "flex dividers",
+        "GPIO33",
+        "thumb",
+        "user",
+        "left glove",
+        "breadboard"
+      ],
+      "context": null,
+      "occurred_start": "2026-09-28T00:00:00+00:00",
+      "occurred_end": "2026-09-28T00:00:00.010000+00:00",
+      "mentioned_at": "2026-09-28T16:39:30.810559+00:00",
+      "document_id": null,
+      "metadata": {},
+      "chunk_id": null,
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 0.0010920104906886065,
+        "reranker": 0.0009773504,
+        "semantic": 0.4580819333742905,
+        "keyword": null
+      },
+      "attachments": null
+    },
+    {
+      "id": "a566c8d0-562b-4d68-a400-899d42b5b041",
+      "text": "TFT_eSPI library failed to compile on ESP32 Arduino core 3.x due to the removal of the gpio_input_get() function. | When: 2026-09-28 | API change in ESP32 Arduino core 3.x.",
+      "type": "world",
+      "entities": [
+        "TFT_eSPI",
+        "Arduino",
+        "gpio_input_get",
+        "ESP32"
+      ],
+      "context": "Hasth Vani display debugging",
+      "occurred_start": "2026-09-28T00:00:00+00:00",
+      "occurred_end": "2026-09-28T00:00:00+00:00",
+      "mentioned_at": "2026-09-28T16:39:24.370865+00:00",
+      "document_id": "d8405257-6c48-4513-8c18-6c0c3a7d92e9",
+      "metadata": {},
+      "chunk_id": "hasth-vani_d8405257-6c48-4513-8c18-6c0c3a7d92e9_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 0.0008704914127428106,
+        "reranker": 0.0007916296,
+        "semantic": 0.5886260867118835,
+        "keyword": 0.20000000298023224
+      },
+      "attachments": null
+    },
+    {
+      "id": "3fd0056e-dd31-4994-b6a7-4a1013fdc29c",
+      "text": "The assistant performed a connectivity probe as part of a setup check on September 28, 2026.",
+      "type": "observation",
+      "entities": [
+        "assistant",
+        "setup check",
+        "connectivity probe"
+      ],
+      "context": null,
+      "occurred_start": "2026-09-28T16:37:51.851897+00:00",
+      "occurred_end": "2026-09-28T16:37:51.851897+00:00",
+      "mentioned_at": "2026-09-28T16:37:51.851897+00:00",
+      "document_id": null,
+      "metadata": {},
+      "chunk_id": null,
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 0.0007536879438346966,
+        "reranker": 0.0006851713,
+        "semantic": 0.43101433330688943,
+        "keyword": null
+      },
+      "attachments": null
+    },
+    {
+      "id": "debe5872-3e97-4393-a8d2-8041eb46fc5a",
+      "text": "Hasth Vani plans to measure the 10k divider resistor with a multimeter and swap in a spare sensor to isolate the cause of the flex-sensor issue.",
+      "type": "observation",
+      "entities": [
+        "divider resistor",
+        "multimeter",
+        "flex-sensor",
+        "Hasth Vani"
+      ],
+      "context": null,
+      "occurred_start": "2026-09-28T00:00:00.010000+00:00",
+      "occurred_end": "2026-09-28T00:00:00.010000+00:00",
+      "mentioned_at": "2026-09-28T16:39:20.961205+00:00",
+      "document_id": null,
+      "metadata": {},
+      "chunk_id": null,
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 0.0006695603253182098,
+        "reranker": 0.00060471025,
+        "semantic": 0.42856019735336304,
+        "keyword": null
+      },
+      "attachments": null
+    },
+    {
+      "id": "ba6d299d-5ed8-467e-acb3-5229243bf00f",
+      "text": "Planned next steps for debugging include verifying the divider resistor and swapping the sensor. | When: 2026-09-28 | Involving: Hasth Vani | To isolate the cause of the sensor issue",
+      "type": "experience",
+      "entities": [
+        "divider resistor",
+        "flex-sensor",
+        "Hasth Vani"
+      ],
+      "context": "Hasth Vani flex-sensor debugging",
+      "occurred_start": "2026-09-28T00:00:00.010000+00:00",
+      "occurred_end": "2026-09-28T00:00:00.010000+00:00",
+      "mentioned_at": "2026-09-28T16:38:41.114683+00:00",
+      "document_id": "d9801f22-dc21-4241-80c4-14dd2f993927",
+      "metadata": {},
+      "chunk_id": "hasth-vani_d9801f22-dc21-4241-80c4-14dd2f993927_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 0.00036304243017820355,
+        "reranker": 0.00033015275,
+        "semantic": 0.5731439248833712,
+        "keyword": null
+      },
+      "attachments": null
+    },
+    {
+      "id": "04fc8e68-e9ee-432e-ab35-827b48bdd2e1",
+      "text": "The user plans to identify the actual controller on the TFT shield and update the _DRIVER line in User_Setup.h, considering candidates like ILI9325, ILI9328, HX8347, or ST7781. | When: 2026-09-28 | Involving: user",
+      "type": "world",
+      "entities": [
+        "HX8347",
+        "user",
+        "ST7781",
+        "User_Setup.h",
+        "ILI9325"
+      ],
+      "context": "Hasth Vani display debugging",
+      "occurred_start": null,
+      "occurred_end": null,
+      "mentioned_at": "2026-09-28T16:39:27.818762+00:00",
+      "document_id": "30442d3d-673a-4dc0-951b-022d00a2ecd0",
+      "metadata": {},
+      "chunk_id": "hasth-vani_30442d3d-673a-4dc0-951b-022d00a2ecd0_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 0.00035199804270095596,
+        "reranker": 0.00031999825,
+        "semantic": 0.5758488178253174,
+        "keyword": 0.10000000149011612
+      },
+      "attachments": null
+    },
+    {
+      "id": "0021cf18-88ba-4d28-9ee6-60974543e68a",
+      "text": "Bypassing the thumb flex sensor with a jumper direct to 3.3V did not change the reading, indicating the sensor is not the sole cause of the issue. | When: 2026-09-28 | Involving: Hasth Vani",
+      "type": "experience",
+      "entities": [
+        "flex-sensor",
+        "Hasth Vani"
+      ],
+      "context": "Hasth Vani flex-sensor debugging",
+      "occurred_start": "2026-09-28T00:00:00.010000+00:00",
+      "occurred_end": "2026-09-28T00:00:00.010000+00:00",
+      "mentioned_at": "2026-09-28T16:39:20.951205+00:00",
+      "document_id": "79eba64c-9f2e-4848-a72c-6c5da0179711",
+      "metadata": {},
+      "chunk_id": "hasth-vani_79eba64c-9f2e-4848-a72c-6c5da0179711_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 0.00022369228047498772,
+        "reranker": 0.00020342697,
+        "semantic": 0.5544341802597046,
+        "keyword": null
+      },
+      "attachments": null
+    },
+    {
+      "id": "55ecf803-f1ab-4050-9fb8-d8a60ef90b34",
+      "text": "After the circuit rebuild, 4 of 5 fingers read correctly, but the thumb sensor remains incorrect. | When: 2026-09-28 | Involving: user",
+      "type": "world",
+      "entities": [
+        "flex dividers",
+        "user",
+        "thumb"
+      ],
+      "context": "Hasth Vani power and wiring",
+      "occurred_start": "2026-09-28T00:00:00.010000+00:00",
+      "occurred_end": "2026-09-28T00:00:00.010000+00:00",
+      "mentioned_at": "2026-09-28T16:39:30.810559+00:00",
+      "document_id": "9bc8a2de-7a97-4bc0-960c-7d7c42178099",
+      "metadata": {},
+      "chunk_id": "hasth-vani_9bc8a2de-7a97-4bc0-960c-7d7c42178099_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 0.00014671124512631174,
+        "reranker": 0.00013342,
+        "semantic": 0.5431889619343864,
+        "keyword": null
+      },
+      "attachments": null
+    },
+    {
+      "id": "32c172f3-9eb3-4376-b032-a9e59c91aca1",
+      "text": "The TFT_eSPI library failed to compile on ESP32 Arduino core 3.x due to the removal of the gpio_input_get() function, but the issue was resolved by replacing it with REG_READ(GPIO_IN_REG) in three locations within TFT_eSPI_ESP32.c, allowing the sketch to compile and upload successfully.",
+      "type": "observation",
+      "entities": [
+        "sketch",
+        "TFT_eSPI",
+        "REG_READ",
+        "ESP32",
+        "Arduino",
+        "GPIO_IN_REG",
+        "gpio_input_get"
+      ],
+      "context": null,
+      "occurred_start": "2026-09-28T00:00:00+00:00",
+      "occurred_end": "2026-09-28T00:00:00.020000+00:00",
+      "mentioned_at": "2026-09-28T16:39:24.390865+00:00",
+      "document_id": null,
+      "metadata": {},
+      "chunk_id": null,
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 0.00012258453577381682,
+        "reranker": 0.00011147904,
+        "semantic": 0.5705302527704913,
+        "keyword": 0.20000000298023224
+      },
+      "attachments": null
+    },
+    {
+      "id": "f7088f9a-2bdc-4639-9190-fdce925e6654",
+      "text": "Assistant performed a connectivity probe as part of a setup check. | When: 2026-09-28 | Involving: assistant | setup check",
+      "type": "experience",
+      "entities": [
+        "assistant",
+        "connectivity probe",
+        "setup check"
+      ],
+      "context": "setup check",
+      "occurred_start": "2026-09-28T16:37:51.851897+00:00",
+      "occurred_end": "2026-09-28T16:37:51.851897+00:00",
+      "mentioned_at": "2026-09-28T16:37:51.851897+00:00",
+      "document_id": "51565c0b-04fb-458f-8931-4a0f85b0230c",
+      "metadata": {},
+      "chunk_id": "hasth-vani_51565c0b-04fb-458f-8931-4a0f85b0230c_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 0.00010737715673652243,
+        "reranker": 9.761566e-05,
+        "semantic": 0.5327321290969849,
+        "keyword": null
+      },
+      "attachments": null
+    },
+    {
+      "id": "d8e216e3-4aeb-4564-8828-23454b0e0f8a",
+      "text": "The user rebuilt the breadboard circuit for the five flex dividers on the left glove to use the real 3V3 pin instead of GPIO33. | When: 2026-09-28 | Involving: user | The original layout caused crosstalk between fingers by using GPIO33 as a fake 3.3V rail.",
+      "type": "world",
+      "entities": [
+        "user",
+        "3V3",
+        "breadboard",
+        "flex dividers",
+        "left glove",
+        "GPIO33",
+        "ESP32"
+      ],
+      "context": "Hasth Vani power and wiring",
+      "occurred_start": "2026-09-28T00:00:00+00:00",
+      "occurred_end": "2026-09-28T00:00:00+00:00",
+      "mentioned_at": "2026-09-28T16:39:30.800559+00:00",
+      "document_id": "9bc8a2de-7a97-4bc0-960c-7d7c42178099",
+      "metadata": {},
+      "chunk_id": "hasth-vani_9bc8a2de-7a97-4bc0-960c-7d7c42178099_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 9.547128162754093e-05,
+        "reranker": 8.68221e-05,
+        "semantic": 0.50830078125,
+        "keyword": null
+      },
+      "attachments": null
+    },
+    {
+      "id": "3e42c608-dd26-4503-9271-eb448049e559",
+      "text": "Fixed compilation error by replacing gpio_input_get() with REG_READ(GPIO_IN_REG) in three locations within TFT_eSPI_ESP32.c. | When: 2026-09-28",
+      "type": "experience",
+      "entities": [
+        "GPIO_IN_REG",
+        "TFT_eSPI",
+        "REG_READ"
+      ],
+      "context": "Hasth Vani display debugging",
+      "occurred_start": "2026-09-28T00:00:00.010000+00:00",
+      "occurred_end": "2026-09-28T00:00:00.010000+00:00",
+      "mentioned_at": "2026-09-28T16:39:24.380865+00:00",
+      "document_id": "d8405257-6c48-4513-8c18-6c0c3a7d92e9",
+      "metadata": {},
+      "chunk_id": "hasth-vani_d8405257-6c48-4513-8c18-6c0c3a7d92e9_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 8.968744755511558e-05,
+        "reranker": 8.156225e-05,
+        "semantic": 0.567895608183611,
+        "keyword": 0.20000000298023224
+      },
+      "attachments": null
+    },
+    {
+      "id": "cbad9f8a-6c08-4d51-af28-0bdda51e885e",
+      "text": "The thumb channel measured 247 after a direct 3.3V bypass, but the sensor is not yet confirmed as the faulty component. | When: 2026-09-28 | Involving: Hasth Vani | Debugging flex-sensor",
+      "type": "experience",
+      "entities": [
+        "Hasth Vani",
+        "thumb channel",
+        "flex-sensor"
+      ],
+      "context": "Hasth Vani flex-sensor debugging",
+      "occurred_start": "2026-09-28T00:00:00+00:00",
+      "occurred_end": "2026-09-28T00:00:00+00:00",
+      "mentioned_at": "2026-09-28T16:38:41.104683+00:00",
+      "document_id": "d9801f22-dc21-4241-80c4-14dd2f993927",
+      "metadata": {},
+      "chunk_id": "hasth-vani_d9801f22-dc21-4241-80c4-14dd2f993927_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 5.928141554301611e-05,
+        "reranker": 5.391084e-05,
+        "semantic": 0.5225235379494293,
+        "keyword": null
+      },
+      "attachments": null
+    },
+    {
+      "id": "f866b380-02e0-4a94-8293-5d15a61efa12",
+      "text": "Hasth Vani plans to measure the 10k divider resistor with a multimeter and swap in a spare sensor to continue debugging. | When: 2026-09-28 | Involving: Hasth Vani",
+      "type": "world",
+      "entities": [
+        "divider resistor",
+        "Hasth Vani",
+        "multimeter"
+      ],
+      "context": "Hasth Vani flex-sensor debugging",
+      "occurred_start": null,
+      "occurred_end": null,
+      "mentioned_at": "2026-09-28T16:39:20.961205+00:00",
+      "document_id": "79eba64c-9f2e-4848-a72c-6c5da0179711",
+      "metadata": {},
+      "chunk_id": "hasth-vani_79eba64c-9f2e-4848-a72c-6c5da0179711_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 4.1077921606639745e-05,
+        "reranker": 3.734357e-05,
+        "semantic": 0.4900166988372803,
+        "keyword": null
+      },
+      "attachments": null
+    },
+    {
+      "id": "642e91b1-bd70-4f45-bd6f-3e9724d8ad42",
+      "text": "The sketch now compiles and uploads successfully. | When: 2026-09-28",
+      "type": "experience",
+      "entities": [
+        "sketch"
+      ],
+      "context": "Hasth Vani display debugging",
+      "occurred_start": "2026-09-28T00:00:00.020000+00:00",
+      "occurred_end": "2026-09-28T00:00:00.020000+00:00",
+      "mentioned_at": "2026-09-28T16:39:24.390865+00:00",
+      "document_id": "d8405257-6c48-4513-8c18-6c0c3a7d92e9",
+      "metadata": {},
+      "chunk_id": "hasth-vani_d8405257-6c48-4513-8c18-6c0c3a7d92e9_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 4.1063720974948e-05,
+        "reranker": 3.734357e-05,
+        "semantic": 0.501160115072735,
+        "keyword": null
+      },
+      "attachments": null
+    },
+    {
+      "id": "efb29200-483a-4340-a1db-5de854ee37ba",
+      "text": "The thumb flex sensor on the left glove is reading approximately 247, while other fingers read between 1500 and 2500. | When: 2026-09-28 | Involving: Hasth Vani | Debugging flex-sensor performance.",
+      "type": "experience",
+      "entities": [
+        "left glove",
+        "Hasth Vani",
+        "flex-sensor"
+      ],
+      "context": "Hasth Vani flex-sensor debugging",
+      "occurred_start": "2026-09-28T00:00:00+00:00",
+      "occurred_end": "2026-09-28T00:00:00+00:00",
+      "mentioned_at": "2026-09-28T16:39:20.941205+00:00",
+      "document_id": "79eba64c-9f2e-4848-a72c-6c5da0179711",
+      "metadata": {},
+      "chunk_id": "hasth-vani_79eba64c-9f2e-4848-a72c-6c5da0179711_0",
+      "tags": [],
+      "source_fact_ids": null,
+      "scores": {
+        "final": 4.106372097021137e-05,
+        "reranker": 3.734357e-05,
+        "semantic": 0.48116156458854675,
+        "keyword": null
+      },
+      "attachments": null
+    }
+  ],
+  "trace": null,
+  "entities": {
+    "user": {
+      "entity_id": "74f1d3fc-c84d-49c1-8265-94efa1a37049",
+      "canonical_name": "user",
+      "observations": []
+    },
+    "ST7781": {
+      "entity_id": "fc2c0e86-0615-4b66-aa1f-17ccb8167ef7",
+      "canonical_name": "ST7781",
+      "observations": []
+    },
+    "ILI9341": {
+      "entity_id": "800d87a6-26f4-4a7e-8227-e846e4d5b0f8",
+      "canonical_name": "ILI9341",
+      "observations": []
+    },
+    "ILI9325": {
+      "entity_id": "23b62239-b1fd-48ea-8260-c779b5b2294b",
+      "canonical_name": "ILI9325",
+      "observations": []
+    },
+    "TFT shield": {
+      "entity_id": "bee1f0b9-a6f4-48b0-b45d-6040e9c345cb",
+      "canonical_name": "TFT shield",
+      "observations": []
+    },
+    "HX8347": {
+      "entity_id": "e5833b93-cfad-4e42-9ee8-b0f6a39a951c",
+      "canonical_name": "HX8347",
+      "observations": []
+    },
+    "ESP32": {
+      "entity_id": "5a4342f3-b3f0-4449-aa16-72af6449b1b1",
+      "canonical_name": "ESP32",
+      "observations": []
+    },
+    "User_Setup.h": {
+      "entity_id": "d62f63aa-4c89-4511-89ef-3cb17abf0e24",
+      "canonical_name": "User_Setup.h",
+      "observations": []
+    },
+    "thumb channel": {
+      "entity_id": "21c488b1-8977-4f67-8b6a-9bcdad9a1ec5",
+      "canonical_name": "thumb channel",
+      "observations": []
+    },
+    "flex-sensor": {
+      "entity_id": "7dc5aa5f-7ae4-41c2-a9c1-d689e67e5de5",
+      "canonical_name": "flex-sensor",
+      "observations": []
+    },
+    "3V3": {
+      "entity_id": "9a14a766-2c8f-4c55-b7b7-4c6f0998c1c2",
+      "canonical_name": "3V3",
+      "observations": []
+    },
+    "Hasth Vani": {
+      "entity_id": "fc69f1e3-a785-4555-8ad0-fe5e488dc402",
+      "canonical_name": "Hasth Vani",
+      "observations": []
+    },
+    "flex dividers": {
+      "entity_id": "86f5067d-bb37-43a1-baba-539d00390245",
+      "canonical_name": "flex dividers",
+      "observations": []
+    },
+    "GPIO33": {
+      "entity_id": "cd24b8fa-3871-46f5-aae7-84888696bd49",
+      "canonical_name": "GPIO33",
+      "observations": []
+    },
+    "thumb": {
+      "entity_id": "7826a903-8474-4271-a4e0-5903283193bd",
+      "canonical_name": "thumb",
+      "observations": []
+    },
+    "left glove": {
+      "entity_id": "593b903b-ba47-4aaf-9453-d45710c11132",
+      "canonical_name": "left glove",
+      "observations": []
+    },
+    "breadboard": {
+      "entity_id": "a91b77b3-e6ea-463f-a791-b8d3a89b51ab",
+      "canonical_name": "breadboard",
+      "observations": []
+    },
+    "TFT_eSPI": {
+      "entity_id": "3f95db03-d976-4b79-952a-9c360781b3a7",
+      "canonical_name": "TFT_eSPI",
+      "observations": []
+    },
+    "Arduino": {
+      "entity_id": "64ea6ae0-4e9d-4202-97eb-fecf7b42ea25",
+      "canonical_name": "Arduino",
+      "observations": []
+    },
+    "gpio_input_get": {
+      "entity_id": "6720af44-5cbb-43ed-b599-4caec919ed4f",
+      "canonical_name": "gpio_input_get",
+      "observations": []
+    },
+    "assistant": {
+      "entity_id": "3b559132-e22b-40c1-943e-9bb65955dd96",
+      "canonical_name": "assistant",
+      "observations": []
+    },
+    "setup check": {
+      "entity_id": "a809a07a-aa46-4e9b-bb73-50e6a9d312e3",
+      "canonical_name": "setup check",
+      "observations": []
+    },
+    "connectivity probe": {
+      "entity_id": "125c86a9-dc49-47b9-94da-e7ff16a8e43c",
+      "canonical_name": "connectivity probe",
+      "observations": []
+    },
+    "divider resistor": {
+      "entity_id": "ebcff663-5e29-4d0e-97c6-7e69b33f5b82",
+      "canonical_name": "divider resistor",
+      "observations": []
+    },
+    "multimeter": {
+      "entity_id": "0312c2dd-441b-4cde-945f-1f5b4620d473",
+      "canonical_name": "multimeter",
+      "observations": []
+    },
+    "sketch": {
+      "entity_id": "0788eae8-79c2-4635-b68f-a142c37796e1",
+      "canonical_name": "sketch",
+      "observations": []
+    },
+    "REG_READ": {
+      "entity_id": "9135472c-ba57-4282-99d4-60ecd7fc853d",
+      "canonical_name": "REG_READ",
+      "observations": []
+    },
+    "GPIO_IN_REG": {
+      "entity_id": "48a70b98-1ad5-4f30-80c8-83056e55055b",
+      "canonical_name": "GPIO_IN_REG",
+      "observations": []
+    }
+  },
+  "chunks": null,
+  "source_facts": null,
+  "source_facts_truncated": null
+}
