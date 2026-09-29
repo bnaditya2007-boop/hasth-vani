@@ -20,8 +20,6 @@ A person who signs and a person who doesn't have no shared channel. Interpreters
 | **Sign → Voice** | The **right glove** reads 5 flex sensors + an MPU6050 IMU, recognises the sign on its ESP32, and speaks it through a MAX98357A amp and speaker. |
 | **Voice → Text** | The partner's speech is converted to text and sent wirelessly to the **left glove**, which shows it on a 2.4" TFT. |
 
-![System architecture](images/diagrams/01_system_architecture.png)
-
 ---
 
 ## Where Hindsight fits: memory for hardware debugging
